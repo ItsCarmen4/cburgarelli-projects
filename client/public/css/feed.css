@@ -21,9 +21,10 @@ main {
 }
 
 footer {
-	position: fixed;
+	position: relative;
 	left: 0px;
-  bottom: 0px;
+  	bottom: 0px;
+	height: 90px;
 	width: 100%;
 	background-color: rgb(177, 86, 252);
 	text-align: center;
@@ -65,4 +66,9 @@ m {
 	position: relative;
 	float: left;
 	right: 100px;
+}
+
+body {
+	background-image: url("https://png.pngtree.com/background/20230121/original/pngtree-aesthetic-modern-purple-background-with-lines-picture-image_2021730.jpg");
+  background-size: 100%;
 }
